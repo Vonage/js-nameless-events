@@ -25,8 +25,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "js-math-utils",
-      fileName: "js-math-utils",
+      name: "js-nameless-events",
+      fileName: "js-nameless-events",
       emptyOutDir: true,
     },
   },
