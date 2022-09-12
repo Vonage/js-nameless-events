@@ -1,0 +1,39 @@
+{
+  "name": "js-nameless-events",
+  "version": "1.0.0",
+  "description": "Library providing nameless events features.",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/js-nameless-events.mjs",
+  "module": "./dist/js-nameless-events.umd.js",
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "typedoc": "typedoc --theme github-wiki src/index.ts",
+    "prettier": "prettier --write ./src ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "repo"
+  },
+  "keywords": [
+    "library",
+    "event"
+  ],
+  "author": {
+    "name": "Remi Deltombe",
+    "email": "remi.deltombe@vongage.com",
+    "url": "https://www.vonage.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.23.1",
+    "typedoc": "^0.23.14",
+    "typedoc-github-wiki-theme": "^1.0.1",
+    "typedoc-plugin-markdown": "^3.13.6",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.0",
+    "vite-plugin-dts": "^1.4.1",
+    "vitest": "^0.23.1"
+  }
+}
