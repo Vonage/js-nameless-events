@@ -1,5 +1,5 @@
 {
-  "name": "js-nameless-events",
+  "name": "@vonage/js-nameless-events",
   "version": "1.0.0",
   "description": "Library providing nameless events features.",
   "types": "./dist/index.d.ts",
