@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "repo"
+    "url": "https://github.com/Vonage/js-nameless-events"
   },
   "keywords": [
     "library",
